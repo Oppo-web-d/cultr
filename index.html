@@ -1,0 +1,770 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Join the CULT - Make America a Cult Again</title>
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='boxicons%402.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="npm/interactjs/dist/interact.min.js"></script>
+    <script src="ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+
+</head>
+<body>
+
+    <div class="intro flex-column" style="display: flex;">
+        <!-- btn !-->
+        <button class="button-main goto" role="button" style="z-index: 999;">
+            <span class="button-main-shadow"></span>
+            <span class="button-main-edge"></span>
+            <span class="button-main-front">Join the Cult</span>
+        </button>
+    </div>
+      
+    <div id="main" class="container-fluid" style="display: none;">
+
+        <!-- navbar -->
+        <header class="cd-header" style="z-index: 998;">
+            <div class="header-wrapper">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="nav-but-wrap d-flex align-items-center">
+                        <div class="menu-icon hover-target">
+                            <span class="menu-icon__line menu-icon__line-left"></span>
+                            <span class="menu-icon__line"></span>
+                            <span class="menu-icon__line menu-icon__line-right"></span>
+                        </div>					
+                    </div>	
+                    <div class="d-flex align-items-center">
+                        <button id="mutebtn" class="p-2 d-flex align-items-center">
+                          <i class='bx bx-volume-full fs-4'></i>
+                        </button>			
+                    </div>
+                </div>
+                
+            </div>				
+        </header>
+    
+        <div class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a href="" class="hover-target">Buy CULT</a></li>
+                    <li class="nav__list-item"><a href="https://t.me/American_Cult_Tg" class="hover-target">Telegram</a></li>
+                    <li class="nav__list-item"><a href="https://x.com/AMERICAN_CULT_X" class="hover-target">X.com</a></li>
+                </ul>
+            </div>
+        </div>		
+        
+        <div class='cursor' id="cursor"></div>
+        <div class='cursor2' id="cursor2"></div>
+        <div class='cursor3' id="cursor3"></div>
+        <!-- navbar -->
+
+        <!-- hero -->
+        <div id="hero" class="thunder">
+          <canvas id="canvas1"></canvas>
+          <canvas id="canvas2"></canvas>
+          <canvas id="canvas3"></canvas>
+
+            <div class="scrolldown-container">
+                <div class="scrolldown-btn">
+                <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="80px" viewbox="0 0 50 80" enable-background="new 0 0 50 80" xml:space="preserve">
+                    <path class="first-path" fill="#FFFFFF" d="M24.752,79.182c-0.397,0-0.752-0.154-1.06-0.463L2.207,57.234c-0.306-0.305-0.458-0.656-0.458-1.057                  s0.152-0.752,0.458-1.059l2.305-2.305c0.309-0.309,0.663-0.461,1.06-0.461c0.398,0,0.752,0.152,1.061,0.461l18.119,18.119                  l18.122-18.119c0.306-0.309,0.657-0.461,1.057-0.461c0.402,0,0.753,0.152,1.059,0.461l2.306,2.305                  c0.308,0.307,0.461,0.658,0.461,1.059s-0.153,0.752-0.461,1.057L25.813,78.719C25.504,79.027,25.15,79.182,24.752,79.182z"></path>
+                    <path class="second-path" fill="#FFFFFF" d="M24.752,58.25c-0.397,0-0.752-0.154-1.06-0.463L2.207,36.303c-0.306-0.304-0.458-0.655-0.458-1.057                  c0-0.4,0.152-0.752,0.458-1.058l2.305-2.305c0.309-0.308,0.663-0.461,1.06-0.461c0.398,0,0.752,0.153,1.061,0.461l18.119,18.12                  l18.122-18.12c0.306-0.308,0.657-0.461,1.057-0.461c0.402,0,0.753,0.153,1.059,0.461l2.306,2.305                  c0.308,0.306,0.461,0.657,0.461,1.058c0,0.401-0.153,0.753-0.461,1.057L25.813,57.787C25.504,58.096,25.15,58.25,24.752,58.25z"></path>
+                </svg>
+            </div>
+            </div>
+        </div>
+        <!-- hero -->
+
+        <!-- link -->
+        <div class="cultists position-absolute overflow-hidden">
+            <img src="img/cultists.png" alt="" class="img-fluid">
+        </div>
+
+        <!-- section 1 -->
+        <section id="content">
+            <div class="container">
+                <div id="cult" class="row d-flex py-5">
+                    
+                    <div class="col-12 text-center">
+                        <div class="glitch glitch--3 display-1 mt-3" data-scroll="out" data-splitting="">
+                            <h2 class="text-center mb-4">
+                                Make America <br>a Cult Again
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-md-7 mx-auto col-12">
+                        <p class="lead text-secondary text-center">
+                          Join the CULT—where real chads rally behind <span class="text-warning">Trump, the King</span> of loyalty and strength. <br>
+                          This isn’t just politics, it’s a bold movement to reclaim America’s power and pride. <br>
+                          Be part of the legacy. <br>
+                          <strong class="text-warning">Make America a Cult Again!</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /s1 -->
+
+        <!-- tokenomics -->
+        <section class="gradient--1">
+          <div class="container">
+
+
+            <!-- Meme container -->
+            <div class="row d-flex flex-column">
+
+              <div id="history" class="row d-flex py-5 mb-5 align-items-center">
+                <div class="col-12 col-lg-11 mx-lg-auto">
+                    <div class="glitch glitch--3 display-1 text-center" data-scroll="out" data-splitting="">
+                        <h2 class="mb-5">Contract</h2>
+                    </div>
+                    <div class="base mb-5">
+                        <span class="mail-info">
+                          <span class="mail-text" tooltip="Click to Copy" tooltip-position="bottom">
+                            8iLudxTFot2BEYpvBukrcaTsZbRUr6hRYRQ6tPDGpump
+                          </span>
+                        </span>
+                      </div>
+
+                    <div class="text-center">
+
+                          <button class="button-main mb-3" role="button">
+                            <span class="button-main-shadow"></span>
+                            <span class="button-main-edge"></span>
+                            <span class="button-main-front text">
+                              <a href="" target="_blank">Buy CULT</a>
+                            </span>
+                        </button>
+
+                        <button id="blue" class="button-main mb-3" role="button">
+                          <span class="button-main-shadow"></span>
+                          <span class="button-main-edge"></span>
+                          <span class="button-main-front text">
+                            <a href="https://t.me/American_Cult_Tg" target="_blank">Telegram</a>
+                          </span>
+                      </button>
+
+                        <button id="black" class="button-main mb-3" role="button">
+                          <span class="button-main-shadow"></span>
+                          <span class="button-main-edge"></span>
+                          <span class="button-main-front text">
+                            <a href="https://x.com/AMERICAN_CULT_X" target="_blank">X</a>
+                          </span>
+                      </button>
+                    </div>
+                </div>
+            </div>
+
+              <div class="col-12 text-center">
+                <div class="glitch glitch--3 display-1 mt-3" data-scroll="out" data-splitting="">
+                    <h2 class="text-center mb-4">
+                        Generate your <br>avatar
+                    </h2>
+                </div>
+            </div>
+
+              <div id="meme" class="col-md-6 col-12 mx-auto bg-dark position-relative">
+                <img class="resize-drag" src="img/mask.PNG" alt="">
+              </div>
+              <div class="col-md-5 col-12 mx-auto mt-3 text-center">
+                <!-- Upload image -->
+                <label class="custom-file-upload w-100 d-flex align-items-center justify-content-center">
+                  <input type="file" id="image-upload" accept="image/*">
+                  <i class="bx bxs-cloud-upload me-2"></i> Upload image
+                </label>
+                <!--- btn --->
+                <button id="download-button" class="button-main mt-3" role="button">
+                  <span class="button-main-shadow"></span>
+                  <span class="button-main-edge"></span>
+                  <span class="button-main-front text">
+                    Download
+                  </span>
+              </button>
+              </div>
+            </div>
+
+              
+          </div>
+      </section>
+      <!-- tokenomics -->
+
+
+
+        <!-- footer -->
+        <footer>
+            <div class="container-fluid text-center"></div>
+        </footer>
+        <!-- footer -->
+
+    </div>
+    
+
+<!-- scripts -->
+<script src="ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="npm/%40popperjs/core%402.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="npm/bootstrap%405.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script src="splitting%401.1.0/dist/splitting.js"></script>
+<script src="boxicons%402.1.4/dist/boxicons.js"></script>
+<!-- scripts -->
+
+<script defer="">
+  var audio, mutebtn;
+
+  document.addEventListener('DOMContentLoaded', function() {
+      const intro = document.querySelector('.intro');
+      const container = document.getElementById('main');
+      const gotoButton = document.querySelector('.goto');
+
+      gotoButton.addEventListener('click', function() {
+          console.log('Button clicked!');
+          intro.style.display = 'none';
+          container.style.display = 'block';
+
+          // Start audio playback when the button is clicked
+          audio.play();
+      });
+  });
+
+  function initAudioPlayer() {
+      mutebtn = document.getElementById("mutebtn");
+
+      // Initialize the audio object
+      audio = new Audio("sound/MACA.mp3");
+      audio.loop = true;
+
+      // Set the initial volume to 40%
+      audio.volume = 0.4;
+
+      // Add Event Handling
+      mutebtn.addEventListener("click", toggleMute);
+
+      // Function to toggle mute/unmute
+      function toggleMute() {
+          audio.muted = !audio.muted;
+          updateMuteButton();
+      }
+
+      // Function to update mute button icon
+      function updateMuteButton() {
+          if (audio.muted) {
+              mutebtn.innerHTML = "<i class='bx bxs-volume-mute fs-4'></i>";
+          } else {
+              mutebtn.innerHTML = "<i class='bx bxs-volume-full fs-4'></i>";
+          }
+      }
+  }
+
+  window.addEventListener("load", initAudioPlayer);
+</script>
+
+
+<!-- menu -->
+<script>
+
+
+/* Please ❤ this if you like it! */
+
+
+(function($) { "use strict";
+		
+        //Page cursors
+    
+        document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
+            t.style.left = n.clientX + "px", 
+            t.style.top = n.clientY + "px", 
+            e.style.left = n.clientX + "px", 
+            e.style.top = n.clientY + "px", 
+            i.style.left = n.clientX + "px", 
+            i.style.top = n.clientY + "px"
+        });
+        var t = document.getElementById("cursor"),
+            e = document.getElementById("cursor2"),
+            i = document.getElementById("cursor3");
+        function n(t) {
+            e.classList.add("hover"), i.classList.add("hover")
+        }
+        function s(t) {
+            e.classList.remove("hover"), i.classList.remove("hover")
+        }
+        s();
+        for (var r = document.querySelectorAll(".hover-target"), a = r.length - 1; a >= 0; a--) {
+            o(r[a])
+        }
+        function o(t) {
+            t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
+        }
+        
+        //Navigation
+    
+        var app = function () {
+            var body = undefined;
+            var menu = undefined;
+            var menuItems = undefined;
+            var init = function init() {
+                body = document.querySelector('body');
+                menu = document.querySelector('.menu-icon');
+                menuItems = document.querySelectorAll('.nav__list-item');
+                applyListeners();
+            };
+            var applyListeners = function applyListeners() {
+                menu.addEventListener('click', function () {
+                    return toggleClass(body, 'nav-active');
+                });
+            };
+            var toggleClass = function toggleClass(element, stringClass) {
+                if (element.classList.contains(stringClass)) element.classList.remove(stringClass);else element.classList.add(stringClass);
+            };
+            init();
+        }();
+    
+        
+        //Switch light/dark
+        
+        $("#switch").on('click', function () {
+            if ($("body").hasClass("light")) {
+                $("body").removeClass("light");
+                $("#switch").removeClass("switched");
+            }
+            else {
+                $("body").addClass("light");
+                $("#switch").addClass("switched");
+            }
+        });
+        
+    })(jQuery); 
+</script>
+
+<script>
+    const { Splitting } = window;
+    Splitting();
+    window.ScrollOut({
+    scrollingElement: '.container',
+    targets: '.text' });
+</script>
+
+<script>
+var x;
+var $cards = $(".card");
+var $style = $(".hover");
+
+$cards
+  .on("mousemove touchmove", function(e) { 
+    // normalise touch/mouse
+    var pos = [e.offsetX,e.offsetY];
+    e.preventDefault();
+    if ( e.type === "touchmove" ) {
+      pos = [ e.touches[0].clientX, e.touches[0].clientY ];
+    }
+    var $card = $(this);
+    // math for mouse position
+    var l = pos[0];
+    var t = pos[1];
+    var h = $card.height();
+    var w = $card.width();
+    var px = Math.abs(Math.floor(100 / w * l)-100);
+    var py = Math.abs(Math.floor(100 / h * t)-100);
+    var pa = (50-px)+(50-py);
+    // math for gradient / background positions
+    var lp = (50+(px - 50)/1.5);
+    var tp = (50+(py - 50)/1.5);
+    var px_spark = (50+(px - 50)/7);
+    var py_spark = (50+(py - 50)/7);
+    var p_opc = 20+(Math.abs(pa)*1.5);
+    var ty = ((tp - 50)/2) * -1;
+    var tx = ((lp - 50)/1.5) * .5;
+    // css to apply for active card
+    var grad_pos = `background-position: ${lp}% ${tp}%;`
+    var sprk_pos = `background-position: ${px_spark}% ${py_spark}%;`
+    var opc = `opacity: ${p_opc/100};`
+    var tf = `transform: rotateX(${ty}deg) rotateY(${tx}deg)`
+    // need to use a <style> tag for psuedo elements
+    var style = `
+      .card:hover:before { ${grad_pos} }  /* gradient */
+      .card:hover:after { ${sprk_pos} ${opc} }   /* sparkles */ 
+    `
+    // set / apply css class and style
+    $cards.removeClass("active");
+    $card.removeClass("animated");
+    $card.attr( "style", tf );
+    $style.html(style);
+    if ( e.type === "touchmove" ) {
+      return false; 
+    }
+    clearTimeout(x);
+  }).on("mouseout touchend touchcancel", function() {
+    // remove css, apply custom animation on end
+    var $card = $(this);
+    $style.html("");
+    $card.removeAttr("style");
+    x = setTimeout(function() {
+      $card.addClass("animated");
+    },2500);
+  });
+</script>
+
+<script>
+    const copyMailId = document.querySelectorAll('.mail-text');
+
+copyMailId.forEach(copyText => {
+    copyText.addEventListener('click', () => {
+        const selection = window.getSelection();
+        const range = document.createRange();
+        range.selectNodeContents(copyText);
+        selection.removeAllRanges();
+        selection.addRange(range);
+
+        try {
+            document.execCommand('copy');
+            selection.removeAllRanges();
+
+            const mailId = copyText.textContent;
+            copyText.textContent = 'CA copied to your clipboard!';
+            copyText.classList.add('success');
+
+            setTimeout(() => {
+                copyText.textContent = mailId;
+                copyText.classList.remove('success');
+            }, 1000);
+        } catch (e) {
+            copyText.textContent = 'Couldn\'t copy, hit Ctrl+C!';
+            copyText.classList.add('error');
+
+            setTimeout(() => {
+                errorMsg.classList.remove('show');
+            }, 1200);
+        }
+    });
+});
+</script>
+
+<script>
+    var canvas1 = document.getElementById("canvas1");
+var canvas2 = document.getElementById("canvas2");
+var canvas3 = document.getElementById("canvas3");
+var ctx1 = canvas1.getContext("2d");
+var ctx2 = canvas2.getContext("2d");
+var ctx3 = canvas3.getContext("2d");
+
+var rainthroughnum = 500;
+var speedRainTrough = 25;
+var RainTrough = [];
+
+var rainnum = 500;
+var rain = [];
+
+var lightning = [];
+var lightTimeCurrent = 0;
+var lightTimeTotal = 0;
+
+var w = (canvas1.width = canvas2.width = canvas3.width = window.innerWidth);
+var h = (canvas1.height = canvas2.height = canvas3.height = window.innerHeight);
+window.addEventListener("resize", function () {
+  w = canvas1.width = canvas2.width = canvas3.width = window.innerWidth;
+  h = canvas1.height = canvas2.height = canvas3.height = window.innerHeight;
+});
+
+function random(min, max) {
+  return Math.random() * (max - min + 1) + min;
+}
+
+function clearcanvas1() {
+  ctx1.clearRect(0, 0, w, h);
+}
+
+function clearcanvas2() {
+  ctx2.clearRect(0, 0, canvas2.width, canvas2.height);
+}
+
+function clearCanvas3() {
+  ctx3.globalCompositeOperation = "destination-out";
+  ctx3.fillStyle = "rgba(0,0,0," + random(1, 30) / 100 + ")";
+  ctx3.fillRect(0, 0, w, h);
+  ctx3.globalCompositeOperation = "source-over";
+}
+
+function createRainTrough() {
+  for (var i = 0; i < rainthroughnum; i++) {
+    RainTrough[i] = {
+      x: random(0, w),
+      y: random(0, h),
+      length: Math.floor(random(1, 830)),
+      opacity: Math.random() * 0.2,
+      xs: random(-2, 2),
+      ys: random(10, 20)
+    };
+  }
+}
+
+function createRain() {
+  for (var i = 0; i < rainnum; i++) {
+    rain[i] = {
+      x: Math.random() * w,
+      y: Math.random() * h,
+      l: Math.random() * 1,
+      xs: -4 + Math.random() * 4 + 2,
+      ys: Math.random() * 10 + 10
+    };
+  }
+}
+
+function createLightning() {
+  var x = random(100, w - 100);
+  var y = random(0, h / 4);
+
+  var createCount = random(1, 3);
+  for (var i = 0; i < createCount; i++) {
+    single = {
+      x: x,
+      y: y,
+      xRange: random(5, 30),
+      yRange: random(10, 25),
+      path: [
+        {
+          x: x,
+          y: y
+        }
+      ],
+      pathLimit: random(40, 55)
+    };
+    lightning.push(single);
+  }
+}
+
+function drawRainTrough(i) {
+  ctx1.beginPath();
+  var grd = ctx1.createLinearGradient(
+    0,
+    RainTrough[i].y,
+    0,
+    RainTrough[i].y + RainTrough[i].length
+  );
+  grd.addColorStop(0, "rgba(255,255,255,0)");
+  grd.addColorStop(1, "rgba(255,255,255," + RainTrough[i].opacity + ")");
+
+  ctx1.fillStyle = grd;
+  ctx1.fillRect(RainTrough[i].x, RainTrough[i].y, 1, RainTrough[i].length);
+  ctx1.fill();
+}
+
+function drawRain(i) {
+  ctx2.beginPath();
+  ctx2.moveTo(rain[i].x, rain[i].y);
+  ctx2.lineTo(
+    rain[i].x + rain[i].l * rain[i].xs,
+    rain[i].y + rain[i].l * rain[i].ys
+  );
+  ctx2.strokeStyle = "rgba(174,194,224,0.5)";
+  ctx2.lineWidth = 1;
+  ctx2.lineCap = "round";
+  ctx2.stroke();
+}
+
+function drawLightning() {
+  for (var i = 0; i < lightning.length; i++) {
+    var light = lightning[i];
+
+    light.path.push({
+      x:
+        light.path[light.path.length - 1].x +
+        (random(0, light.xRange) - light.xRange / 2),
+      y: light.path[light.path.length - 1].y + random(0, light.yRange)
+    });
+
+    if (light.path.length > light.pathLimit) {
+      lightning.splice(i, 1);
+    }
+
+    ctx3.strokeStyle = "rgba(255, 255, 255, .1)";
+    ctx3.lineWidth = 3;
+    if (random(0, 15) === 0) {
+      ctx3.lineWidth = 6;
+    }
+    if (random(0, 30) === 0) {
+      ctx3.lineWidth = 8;
+    }
+
+    ctx3.beginPath();
+    ctx3.moveTo(light.x, light.y);
+    for (var pc = 0; pc < light.path.length; pc++) {
+      ctx3.lineTo(light.path[pc].x, light.path[pc].y);
+    }
+    if (Math.floor(random(0, 30)) === 1) {
+      //to fos apo piso
+      ctx3.fillStyle = "rgba(255, 255, 255, " + random(1, 3) / 100 + ")";
+      ctx3.fillRect(0, 0, w, h);
+    }
+    ctx3.lineJoin = "miter";
+    ctx3.stroke();
+  }
+}
+
+function animateRainTrough() {
+  clearcanvas1();
+  for (var i = 0; i < rainthroughnum; i++) {
+    if (RainTrough[i].y >= h) {
+      RainTrough[i].y = h - RainTrough[i].y - RainTrough[i].length * 5;
+    } else {
+      RainTrough[i].y += speedRainTrough;
+    }
+    drawRainTrough(i);
+  }
+}
+
+function animateRain() {
+  clearcanvas2();
+  for (var i = 0; i < rainnum; i++) {
+    rain[i].x += rain[i].xs;
+    rain[i].y += rain[i].ys;
+    if (rain[i].x > w || rain[i].y > h) {
+      rain[i].x = Math.random() * w;
+      rain[i].y = -20;
+    }
+    drawRain(i);
+  }
+}
+
+function animateLightning() {
+  clearCanvas3();
+  lightTimeCurrent++;
+  if (lightTimeCurrent >= lightTimeTotal) {
+    createLightning();
+    lightTimeCurrent = 0;
+    lightTimeTotal = 200; //rand(100, 200)
+  }
+  drawLightning();
+}
+
+function init() {
+  createRainTrough();
+  createRain();
+  window.addEventListener("resize", createRainTrough);
+}
+init();
+
+function animloop() {
+  animateRainTrough();
+  animateRain();
+  animateLightning();
+  requestAnimationFrame(animloop);
+}
+animloop();
+</script>
+
+<!--- MEME generator --->
+<script type="module">
+  import 'https://cdn.interactjs.io/v1.9.20/auto-start/index.js';
+  import 'https://cdn.interactjs.io/v1.9.20/actions/drag/index.js';
+  import 'https://cdn.interactjs.io/v1.9.20/actions/resize/index.js';
+  import 'https://cdn.interactjs.io/v1.9.20/modifiers/index.js';
+  import 'https://cdn.interactjs.io/v1.9.20/dev-tools/index.js';
+  import interact from 'https://cdn.interactjs.io/v1.9.20/interactjs/index.js';
+
+  // Handle image upload
+  document.getElementById("image-upload").addEventListener("change", function (e) {
+    const file = e.target.files[0];
+    if (file && file.type.startsWith("image/")) {
+      const reader = new FileReader();
+      reader.onload = function (event) {
+        const img = new Image();
+        img.onload = function () {
+          const memeContainer = document.getElementById('meme');
+          
+          // Set the uploaded image as the background of the meme container
+          memeContainer.style.backgroundImage = `url(${event.target.result})`;
+          memeContainer.style.backgroundSize = 'cover';  // Make sure the image covers the entire container
+          memeContainer.style.backgroundPosition = 'center'; // Center the image
+
+          // Ensure the resize-drag element is still visible and on top
+          memeContainer.appendChild(document.querySelector('.resize-drag'));
+        };
+        img.src = event.target.result;
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+
+  // Define the dragMoveListener function
+  function dragMoveListener(event) {
+    var target = event.target;
+    var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
+    var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+
+    // Translate the element
+    target.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+    target.setAttribute('data-x', x);
+    target.setAttribute('data-y', y);
+  }
+
+  interact('.resize-drag')
+    .resizable({
+      edges: { left: true, right: true, bottom: true, top: true },
+      listeners: {
+        move(event) {
+          var target = event.target;
+          var x = (parseFloat(target.getAttribute('data-x')) || 0);
+          var y = (parseFloat(target.getAttribute('data-y')) || 0);
+
+          target.style.width = event.rect.width + 'px';
+          target.style.height = event.rect.height + 'px';
+
+          x += event.deltaRect.left;
+          y += event.deltaRect.top;
+
+          target.style.transform = 'translate(' + x + 'px,' + y + 'px)';
+          target.setAttribute('data-x', x);
+          target.setAttribute('data-y', y);
+        }
+      },
+      modifiers: [
+        interact.modifiers.restrictEdges({
+          outer: 'parent'
+        }),
+        interact.modifiers.restrictSize({
+          min: { width: 100, height: 50 }
+        })
+      ],
+      inertia: true
+    })
+    .draggable({
+      listeners: { move: dragMoveListener },
+      inertia: true,
+      modifiers: [
+        interact.modifiers.restrictRect({
+          restriction: 'parent',
+          endOnly: true
+        })
+      ]
+    });
+
+  // Handle image download
+  document.getElementById("download-button").addEventListener("click", function () {
+    const memeContainer = document.getElementById('meme');
+    const resizeDrag = document.querySelector('.resize-drag');
+
+    // Appliquer une bordure transparente avant de générer l'image
+    resizeDrag.style.border = '2px dashed transparent';
+
+    html2canvas(memeContainer).then(function (canvas) {
+      const link = document.createElement('a');
+      link.href = canvas.toDataURL('image/png');
+      link.download = 'cult.png';
+      link.click();
+
+      // Restaurer la bordure originale après le téléchargement
+      resizeDrag.style.border = '2px dashed #cccfff';
+    });
+  });
+  </script>
+</body>
+
+</html>

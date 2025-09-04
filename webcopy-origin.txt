@@ -1,0 +1,104 @@
+Uri: https://americancult.online/
+File Name: C:\americancult.online\index.htm
+Content Type: text/html
+
+Uri: https://americancult.online/css/bootstrap.min.css
+File Name: C:\americancult.online\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://americancult.online/css/style.css
+File Name: C:\americancult.online\css\style.css
+Content Type: text/css
+
+Uri: https://americancult.online/favicon/apple-touch-icon.png
+File Name: C:\americancult.online\favicon\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://americancult.online/favicon/favicon-16x16.png
+File Name: C:\americancult.online\favicon\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://americancult.online/favicon/favicon-32x32.png
+File Name: C:\americancult.online\favicon\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://americancult.online/favicon/site.webmanifest
+File Name: C:\americancult.online\favicon\site.webmanifest
+Content Type: text/plain
+
+Uri: https://americancult.online/font/DungeonDepths.woff
+File Name: C:\americancult.online\font\DungeonDepths.woff
+Content Type: application/font-woff
+
+Uri: https://americancult.online/font/DungeonDepths.woff2
+File Name: C:\americancult.online\font\DungeonDepths.woff2
+Content Type: font/woff2
+
+Uri: https://americancult.online/img/bottom.jpg
+File Name: C:\americancult.online\img\bottom.jpg
+Content Type: image/jpeg
+
+Uri: https://americancult.online/img/cultists.png
+File Name: C:\americancult.online\img\cultists.png
+Content Type: image/png
+
+Uri: https://americancult.online/img/home.jpg
+File Name: C:\americancult.online\img\home.jpg
+Content Type: image/jpeg
+
+Uri: https://americancult.online/img/mask.PNG
+File Name: C:\americancult.online\img\mask.PNG
+Content Type: image/png
+
+Uri: https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js
+File Name: C:\americancult.online\npm\@popperjs\core@2.11.6\dist\umd\popper.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js
+File Name: C:\americancult.online\npm\bootstrap@5.2.3\dist\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js
+File Name: C:\americancult.online\npm\interactjs\dist\interact.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js
+File Name: C:\americancult.online\ajax\libs\html2canvas\1.4.1\html2canvas.min.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js
+File Name: C:\americancult.online\ajax\libs\jquery\3.3.1\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css
+File Name: C:\americancult.online\boxicons@2.1.4\css\boxicons.min.css
+Content Type: text/css
+
+Uri: https://unpkg.com/boxicons@2.1.4/dist/boxicons.js
+File Name: C:\americancult.online\boxicons@2.1.4\dist\boxicons.js
+Content Type: text/javascript
+
+Uri: https://unpkg.com/boxicons@2.1.4/fonts/boxicons.eot
+File Name: C:\americancult.online\boxicons@2.1.4\fonts\boxicons.eot
+Content Type: application/octet-stream
+
+Uri: https://unpkg.com/boxicons@2.1.4/fonts/boxicons.svg?
+File Name: C:\americancult.online\boxicons@2.1.4\fonts\boxicons.svg
+Content Type: image/svg+xml
+
+Uri: https://unpkg.com/boxicons@2.1.4/fonts/boxicons.ttf
+File Name: C:\americancult.online\boxicons@2.1.4\fonts\boxicons.ttf
+Content Type: font/ttf
+
+Uri: https://unpkg.com/boxicons@2.1.4/fonts/boxicons.woff
+File Name: C:\americancult.online\boxicons@2.1.4\fonts\boxicons.woff
+Content Type: font/woff
+
+Uri: https://unpkg.com/boxicons@2.1.4/fonts/boxicons.woff2
+File Name: C:\americancult.online\boxicons@2.1.4\fonts\boxicons.woff2
+Content Type: font/woff2
+
+Uri: https://unpkg.com/splitting@1.1.0/dist/splitting.js
+File Name: C:\americancult.online\splitting@1.1.0\dist\splitting.js
+Content Type: text/javascript
+
