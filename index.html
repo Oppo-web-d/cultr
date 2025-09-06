@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Primary Meta Tags -->
-    <title>Join the CULT - Make America a Cult Again</title>
+    <title>Cult of Troll</title>
     
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/fav.png">
 
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
@@ -56,9 +56,9 @@
         <div class="nav">
             <div class="nav__content">
                 <ul class="nav__list">
-                    <li class="nav__list-item"><a href="" class="hover-target">Buy CULT</a></li>
-                    <li class="nav__list-item"><a href="https://t.me/American_Cult_Tg" class="hover-target">Telegram</a></li>
-                    <li class="nav__list-item"><a href="https://x.com/AMERICAN_CULT_X" class="hover-target">X.com</a></li>
+                    <li class="nav__list-item"><a href="" class="hover-target buy">Buy CULT</a></li>
+                    <li class="nav__list-item"><a href="" class="hover-target tg">Telegram</a></li>
+                    <li class="nav__list-item"><a href="" class="hover-target x">X.com</a></li>
                 </ul>
             </div>
         </div>		
@@ -98,16 +98,14 @@
                     <div class="col-12 text-center">
                         <div class="glitch glitch--3 display-1 mt-3" data-scroll="out" data-splitting="">
                             <h2 class="text-center mb-4">
-                                Make America <br>a Cult Again
+                              Cult of Troll
                             </h2>
                         </div>
                     </div>
                     <div class="col-md-7 mx-auto col-12">
                         <p class="lead text-secondary text-center">
-                          Join the CULT—where real chads rally behind <span class="text-warning">Trump, the King</span> of loyalty and strength. <br>
-                          This isn’t just politics, it’s a bold movement to reclaim America’s power and pride. <br>
-                          Be part of the legacy. <br>
-                          <strong class="text-warning">Make America a Cult Again!</strong>
+                          Memes are Scripture, Trolls are Priests, and <span class="text-warning">Cultr</span> is the Altar where Irony is Law. Here, every Trollface is a Sermon, every Shitpost a Ritual, and every Laugh a Confession. You don’t just scroll, you worship. This isn’t a feed, it’s Doctrine. Laugh or Perish — those are the only Commandments carved into the Walls of
+                          <strong class="text-warning"> Cultr.</strong>
                         </p>
                     </div>
                 </div>
@@ -130,8 +128,7 @@
                     </div>
                     <div class="base mb-5">
                         <span class="mail-info">
-                          <span class="mail-text" tooltip="Click to Copy" tooltip-position="bottom">
-                            8iLudxTFot2BEYpvBukrcaTsZbRUr6hRYRQ6tPDGpump
+                          <span class="mail-text copyText" tooltip="Click to Copy" tooltip-position="bottom">
                           </span>
                         </span>
                       </div>
@@ -139,28 +136,34 @@
                     <div class="text-center">
 
                           <button class="button-main mb-3" role="button">
+                            <a href="" target="_blank" class="buy">
+                              <span class="button-main-shadow"></span>
+                              <span class="button-main-edge"></span>
+                              <span class="button-main-front text">
+                                Buy CULT
+                              </span>
+                            </a>
+                          </button>
+
+                        <button id="blue" class="button-main mb-3" role="button">
+                          <a href="" target="_blank" class="tg">
                             <span class="button-main-shadow"></span>
                             <span class="button-main-edge"></span>
                             <span class="button-main-front text">
-                              <a href="" target="_blank">Buy CULT</a>
+                              Telegram
                             </span>
+                          </a>
                         </button>
 
-                        <button id="blue" class="button-main mb-3" role="button">
-                          <span class="button-main-shadow"></span>
-                          <span class="button-main-edge"></span>
-                          <span class="button-main-front text">
-                            <a href="https://t.me/American_Cult_Tg" target="_blank">Telegram</a>
-                          </span>
-                      </button>
-
                         <button id="black" class="button-main mb-3" role="button">
-                          <span class="button-main-shadow"></span>
-                          <span class="button-main-edge"></span>
-                          <span class="button-main-front text">
-                            <a href="https://x.com/AMERICAN_CULT_X" target="_blank">X</a>
-                          </span>
-                      </button>
+                          <a href="" target="_blank" class="x">
+                            <span class="button-main-shadow"></span>
+                            <span class="button-main-edge"></span>
+                            <span class="button-main-front text">
+                              X
+                            </span>
+                          </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -765,6 +768,23 @@ animloop();
     });
   });
   </script>
+<script>
+  fetch('./links.json')
+  .then(res => res.json())
+  .then(data => {
+    document.querySelectorAll('.buy').forEach(el => el.href = data.buy);
+    document.querySelectorAll('.tg').forEach(el => el.href = data.tg);
+    document.querySelectorAll('.x').forEach(el => el.href = data.x);
+
+const CA = (data.ca || '').trim();
+    document.querySelectorAll('.copyText').forEach(el => {
+      el.textContent = CA;
+      el.dataset.ca = CA;
+    });
+  })
+  .catch(err => console.error('err JSON:', err));
+
+</script>
 </body>
 
 </html>
